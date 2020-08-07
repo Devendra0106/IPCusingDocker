@@ -1,10 +1,7 @@
-# Get the latest base image for python
 FROM python:3.8-alpine
-# Put files at the image '/server/' folder.
-ADD producer.py /server/
-# '/server/' is base directory
-WORKDIR /server/
-# Expose port 9898 in the container
-EXPOSE 5000
+# Put files at the image '/client/' folder.
+ADD consumer.py /client/
+# '/client/' is base directory
+WORKDIR /client/
 # execute the command
-CMD [ "python3", "/server/producer.py" ]
+CMD [ "python3", "/client/consumer.py" ]
