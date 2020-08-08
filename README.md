@@ -34,7 +34,9 @@ Steps to run the container:
   
     
     
-    if you are making containers from scratch from above code: Replace 2 and 3 steps with below:   
+    if you are making containers from scratch from above code: 
+    
+    Replace 2 and 3 steps with below:   
     
     2. Route to producer folder from terminal and create an image using command : docker build -t gadekalp/producer .
     3. Route to consumer folder from termianl and create an image using command : docker build -t gadekalp/consumer .
