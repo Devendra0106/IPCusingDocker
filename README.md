@@ -40,13 +40,3 @@ Steps to run the container:
     
     2. Route to producer folder from terminal and create an image using command : docker build -t gadekalp/producer .
     3. Route to consumer folder from termianl and create an image using command : docker build -t gadekalp/consumer .
-  
-   
-
-References:
-
-1. Container(https://www.docker.com/resources/what-container)
-2. Network Namespaces(https://man7.org/linux/man-pages/man7/network_namespaces.7.html)
-3. Docker Containers Communication(https://pythonspeed.com/articles/docker-connection-refused/)
-4. Docker Networking Basics(https://docs.docker.com/network/)
-5. User Defined Bridge(https://docs.docker.com/network/bridge/)
