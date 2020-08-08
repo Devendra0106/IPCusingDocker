@@ -32,6 +32,8 @@ Steps to run the container:
 7. Press Ctrl+C to close the connection
   (if you are getting permission denied for above docker commands, try to use sudo as a prefix for each command :))
   
+    
+    
     if you are making containers from scratch from above code: Replace 2 and 3 steps with below:   
     
     2. Route to producer folder from terminal and create an image using command : docker build -t gadekalp/producer .
