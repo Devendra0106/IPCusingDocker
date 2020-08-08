@@ -3,13 +3,13 @@ This is a simple IPC prototype which is designed to demonstrate one to one produ
 
 This project is mainly concerned about following three phases:
 
-1. Producer
+1. Producer:
     Producer program(producer.py) genrates a continuous random numbers between 1 to 24 (We can change this as per need) and send ito the host called "ipc_server_dns_name" and port 5000. 
 
-2. Consumer
+2. Consumer:
    Consumer checks for the data on ipc_server_dns_name:5000, picks up the data and print on the terminal. (hostname and port number should be consistent with producer program)
    
-3. Containerizing
+3. Containerizing:
    To package producer and consumer as separate containers.
 
 Note:
