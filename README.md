@@ -22,7 +22,8 @@ Steps to run the container:
 1. Base functional requirement should be docker daemon host running on the machine.
 2. Pull the producer container from gadekalp docker hub repository. (docker pull gadekalp/producer)
 3. Pull the consumer container from gadekalp docker hub repository. (docker pull gadekalp/consumer)
-4. Create a docker network to make communication between both the containers (docker network create <network name>  e.g. docker network create prod_cons) (Reference 5)
+4. Create a docker network to make communication between both the containers (docker network create <network name>)  
+      (e.g. docker network create prod_cons) (Reference 5)
 5. First run the producer container (docker run --rm --network=<network name from step 4> --name ipc_server_dns_name gadekalp/producer)
 6. Run the consumer container (docker run --rm --network=<network name from step 4> gadekalp/consumer)
 7. Press Ctrl+C to close the connection
