@@ -30,9 +30,13 @@ Steps to run the container:
   (if you are getting permission denied for above docker commands, try to use sudo as a prefix for each command :))
   
   if you are making containers from scratch from above code:
-  Replace 2 and 3 steps with below:
-  2. Route to producer folder from terminal and create an image using command : docker build -t gadekalp/producer .
-  3. Route to consumer folder from termianl and create an image using command : docker build -t gadekalp/consumer .
+  
+  
+    Replace 2 and 3 steps with below:
+    
+    
+    2. Route to producer folder from terminal and create an image using command : docker build -t gadekalp/producer .
+    3. Route to consumer folder from termianl and create an image using command : docker build -t gadekalp/consumer .
   
    
 
