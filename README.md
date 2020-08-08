@@ -26,6 +26,7 @@ Steps to run the container:
 5. First run the producer container (docker run --rm --network=<network name from step 4> --name ipc_server_dns_name gadekalp/producer)
 6. Run the consumer container (docker run --rm --network=<network name from step 4> gadekalp/consumer)
 7. Press Ctrl+C to close the connection
+(if you are getting permission denied for above docker commands, try to use sudo as a prefix for each command :))
    
 
 References:
