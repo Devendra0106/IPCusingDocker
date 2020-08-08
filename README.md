@@ -3,8 +3,8 @@ This is a simple IPC prototype which is designed to demonstrate one to one produ
 
 References:
 
-Container(https://www.docker.com/resources/what-container)
-Network Namespaces(https://man7.org/linux/man-pages/man7/network_namespaces.7.html)
-Docker Containers Communication(https://pythonspeed.com/articles/docker-connection-refused/)
-Docker Networking Basics(https://docs.docker.com/network/)
-User Deined Bridge(https://docs.docker.com/network/bridge/)
+1. Container(https://www.docker.com/resources/what-container)
+2. Network Namespaces(https://man7.org/linux/man-pages/man7/network_namespaces.7.html)
+3. Docker Containers Communication(https://pythonspeed.com/articles/docker-connection-refused/)
+4. Docker Networking Basics(https://docs.docker.com/network/)
+5. User Deined Bridge(https://docs.docker.com/network/bridge/)
