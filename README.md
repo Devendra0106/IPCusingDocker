@@ -16,7 +16,7 @@ This project is mainly concerned about following three phases:
 
   Note:
   
-    We cannot use 127.0.0.1 as a hostname to communicate with other container as both are running as different containers. If we use localhost, then consumer will listen to its own ip address and producer writes the data on its own ipaddress:port(Reference 3).
+    We cannot use 127.0.0.1 as a hostname to communicate with other container as both are running as different containers. If we use localhost, then consumer will listen to its own ip address and producer writes the data on its own ipaddress:port.
 
 
 
@@ -26,7 +26,7 @@ Steps to run the container:
 2. Pull the producer container from gadekalp docker hub repository. (docker pull gadekalp/producer)
 3. Pull the consumer container from gadekalp docker hub repository. (docker pull gadekalp/consumer)
 4. Create a docker network to make communication between both the containers (docker network create <network_name> )  
-      (e.g. docker network create prod_cons) (Reference 5)
+      (e.g. docker network create prod_cons) 
 5. First run the producer container (docker run --rm --network=<network name from step 4> --name ipc_server_dns_name gadekalp/producer)
 6. Run the consumer container (docker run --rm --network=<network name from step 4> gadekalp/consumer)
 7. Press Ctrl+C to close the connection
